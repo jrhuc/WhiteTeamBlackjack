@@ -1,5 +1,7 @@
-
-public class Main {
+/**
+ * This is a test class for Blackjack
+ */
+public class BlackjackTest {
     public static void main(String[] args) {
         System.out.println(Blackjack.play(10,21));
         try{

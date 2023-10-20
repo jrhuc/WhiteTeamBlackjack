@@ -1,11 +1,10 @@
+/**
+ * This class implements the basic version of Blackjack.
+ */
 public class Blackjack {
     public static int play(int a, int b) {
-       /* boolean valid = false;
-        System.out.println("Please enter 2 positive integers");
 
-        while (!valid) {*/
             if (a > 0 && b > 0) {
-//                valid = true;
                 if (a > 21 && b > 21) {
                     return 0;
                 } else if (a < 21 && b < 21) {
